@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, Text, TouchableOpacity} from 'react-native';
+import { StyleSheet, View, Button} from 'react-native';
+import RouterButton from 'react-router-native-button';
 import { connect } from 'react-redux';
 
 class Menu extends Component {
@@ -11,8 +12,14 @@ class Menu extends Component {
     console.log(this.props)
     return (
       <View style={styles.container}>
-        <Text> Home </Text>
-        <Text> Discover </Text>
+       <RouterButton 
+        to="/"
+        title="Home"
+       />
+       <RouterButton 
+        to="/discover"
+        title="Discover"
+       />
       </View>
     );
   }

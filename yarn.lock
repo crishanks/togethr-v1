@@ -4612,6 +4612,11 @@ react-redux@^7.1.0:
     prop-types "^15.7.2"
     react-is "^16.8.6"
 
+react-router-native-button@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-router-native-button/-/react-router-native-button-1.2.0.tgz#2ecfaa08ad8d320a19df168c573f741facfc3338"
+  integrity sha512-4DydVu57e+u9VMnMSiMpKrgFGulknUDJRuUEBQ3JzFjq7VpaXho3KC4tBE9/e+v/SjiE3NFim3v/5iq4ElqUiw==
+
 react-router-native@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-router-native/-/react-router-native-5.0.1.tgz#4469f83d450bd494d1cc023a574136a6f1869010"
