@@ -22,14 +22,14 @@ export default class  Welcome extends React.Component {
         <View style={styles.main}>
           {
             this.state.fontLoaded ? (
-              <Text style={{fontFamily: 'raleway-extrabold', fontSize: 56, color: '#3185FC'}}>togethr</Text>
+              <Text style={{fontFamily: 'raleway-extrabold', fontSize: 56, color: '#23C9FF'}}>togethr</Text>
             ) : null
           }
         </View>
         <View style={styles.bottom}>
           {
             this.state.fontLoaded ? (
-              <Link to="/discover"><Text style={{color: 'white', fontFamily: 'raleway-extralight', fontSize: 24}}>Get Started</Text></Link>
+              <Link to="/discover"><Text style={{color: '#F3E8EE', fontFamily: 'raleway-extralight', fontSize: 24}}>Get Started</Text></Link>
             ) : null
           }
         </View>
@@ -41,7 +41,7 @@ export default class  Welcome extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white'
+    backgroundColor: '#F3E8EE'
   },
   main: {
     flex: 1,
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   bottom: {
     flex: 1,
     height: 5,
-    backgroundColor: '#403F4C',
+    backgroundColor: '#02020B',
     justifyContent: 'center',
     alignItems: 'center',
   }

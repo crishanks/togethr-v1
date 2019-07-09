@@ -5,7 +5,7 @@ import Menu from './Menu';
 
 export default function NavBar() {
   return (
-    <View style={{width: '100%', height: 140, backgroundColor: 'skyblue', alignItems: 'center', justifyContent: 'center'}}>
+    <View style={styles.container}>
       <Text>togethr</Text>
       <Menu />
     </View>
@@ -14,6 +14,9 @@ export default function NavBar() {
 
 const styles = StyleSheet.create({
   container: {
-    color: 'red'
+    width: '100%',
+    height: 140,
+    backgroundColor: '#23C9FF',
+    alignItems: 'center'
   }
 });
